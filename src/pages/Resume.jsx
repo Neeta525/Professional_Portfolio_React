@@ -1,17 +1,17 @@
-import React from 'react'
+import React from 'react';
 
 
-function Contact() {
+function Resume() {
   return (
     <div>
         <section className="section">
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                <h1 className="main-heading">Contact Me</h1>
+                <h1 className="main-heading">My Resume</h1>
                 <div className="underline mx-auto">
                   <p>
-                    This section is so you can contact. Blah Blah Blah
+                    You can click on my resume here. Blah Blah Blah
                   </p>
                 </div>
               </div>
@@ -19,7 +19,7 @@ function Contact() {
           </div>
         </section>
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Resume;

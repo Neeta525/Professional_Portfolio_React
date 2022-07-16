@@ -1,4 +1,12 @@
 import React from 'react';
+// import 'src/styles/NavTabs.css';
+
+// const styles = {
+//   navtabsStyle: {
+//     background: 'black',
+//     justifyContent: 'center',
+//   },
+// };
 
 
 
@@ -7,35 +15,35 @@ function NavTabs({ currentPage, handlePageChange }) {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
-
-
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        >
-          Home
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
           href="#about"
           onClick={() => handlePageChange('About')}
 
 
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
-          About
+          About Me
         </a>
       </li>
       <li className="nav-item">
         <a
-          href="#work"
-          onClick={() => handlePageChange('Work')}
+          href="#portfolio"
+          onClick={() => handlePageChange('Portfolio')}
 
 
-          className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >
-          Work
+          Portfolio
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#Resume"
+          onClick={() => handlePageChange('Resume')}
+
+
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
         </a>
       </li>
       <li className="nav-item">
