@@ -1,16 +1,41 @@
+.card-body {
+    background-color: rgb(223, 236, 230);
+    outline: 5px;
+    border-radius: 5px;
+}
+.container {
+    min-height: 100%;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
 .section {
     padding-top: 20px;
 }
 
 .main-heading {
-    color: rgb(87, 87, 90);
+    color: rgb(183, 46, 137);
     font-size: 50px;
 }
 
 .underline {
-    height: .05px;
-    width: 5 rem;
-    background-color: black;
+    width: auto;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.footer {
+    position: relative;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom:0;
+}
+
+.underline h5 {
+    margin-top: 5px;
 }

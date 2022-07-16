@@ -1,12 +1,5 @@
 import React from 'react';
-// import 'src/styles/NavTabs.css';
 
-// const styles = {
-//   navtabsStyle: {
-//     background: 'black',
-//     justifyContent: 'center',
-//   },
-// };
 
 
 

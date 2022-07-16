@@ -5,8 +5,9 @@ import About from '../pages/About';
 import Portfolio from '../pages/Portfolio';
 import Resume from '../pages/Resume';
 import Contact from '../pages/Contact';
-// import Footer from './Footer';
-// import Header from './Header';
+import '../styles/Pages.css';
+import Footer from  '../components/Footer';
+
 
 
 export default function PortfolioContainer() {
@@ -32,8 +33,12 @@ export default function PortfolioContainer() {
     <div>
 
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-
+      
       {renderPage()}
+      <Footer />
     </div>
+
   );
+
+  
 }
