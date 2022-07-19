@@ -1,30 +1,19 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+// import { faTwitterSquare } from '@fortawesome/free-solid-svg-icons';
 
 function Footer() {
   return (
-    <section className='section footer bg-dark text-white'>
-      <div className='container'>
-        <div className='row'>
-        <div className='col-md-4'>
-        <div className ="socialMedia">
-            <FontAwesomeIcon icon= {faCoffee}/>
-        </div>
-        </div>
-        <div className='col-md-4'>
-        <div className ="socialMedia">
-            <FontAwesomeIcon icon= {faCoffee}/>
-        </div>
-        </div>
-        <div className='col-md-4'>
-        <div className ="socialMedia">
-            <FontAwesomeIcon icon= {faCoffee}/>
-        </div>
-        </div>
-        </div>
-      </div>
-    </section>
+    <div ClassName="footer">
+      <footer ClassName="footer flex flex-wrap items-center justify-center px-2 py-3 bg-dark-800">
+        <a href="https://twitter.com/AnitaGChavez1" 
+        target='_blank' 
+        rel='noreferrer noreopener' 
+        className='icons'>
+        <FontAwesomeIcon icon= {['fab', 'twitter']}/></a>
+      </footer>
+    </div>
   )
 }
 
