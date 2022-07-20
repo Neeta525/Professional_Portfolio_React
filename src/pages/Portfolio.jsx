@@ -7,9 +7,7 @@ import passwordGen from '../images/passwordGen.png'
 import socialNetwork from '../images/socialNetwork.png';
 import teacup from '../images/teacup.png';
 import workday from '../images/workday.png';
-// import Col from 'react-bootstrap/Col';
-// import Row from 'react-bootstrap/Row';
-// import Container from 'react-bootstrap/Container';
+import '../styles/Pages.css'
 
 const Portfolio = () => {
   const portfolioInfo = [

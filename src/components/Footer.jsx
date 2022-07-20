@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import '../styles/Pages.css'
 
-// import { faTwitterSquare } from '@fortawesome/free-solid-svg-icons';
 
 function Footer() {
   return (

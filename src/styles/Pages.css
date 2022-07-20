@@ -14,8 +14,8 @@
 }
 
 .card-body {
-    outline: 5px;
-    border-radius: 5px;
+    outline: 8px;
+    border-radius: 10px;
 }
 
 .main-heading, h1 {
@@ -43,6 +43,16 @@
     margin-top: 5px;
 }
 
+/* .btn {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+} */
+
 .grid {
     display: flex;
     flex-direction: row;
@@ -53,6 +63,11 @@
 
 h5, p, text {
     font-family: 'Courier New', Courier, monospace;
+}
+
+.img {
+    border-radius: 25px;
+    box-shadow: #000000;
 }
 
 .icons {
