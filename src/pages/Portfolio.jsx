@@ -7,8 +7,8 @@ import passwordGen from '../images/passwordGen.png'
 import socialNetwork from '../images/socialNetwork.png';
 import teacup from '../images/teacup.png';
 import workday from '../images/workday.png';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
+// import Row from 'react-bootstrap/Row';
 // import Container from 'react-bootstrap/Container';
 
 const Portfolio = () => {
@@ -59,11 +59,12 @@ const Portfolio = () => {
 
   function renderCard (card, index) {
     return (
-      <Row xs={2} md={4} className="g-4">
+      <>
+      <div className="g-4 row">
         {Array.from({ length: 1 }).map((_, index) => (
-          <Col>
-             <Card style={{ width: '25rem' }} key={index} className='box'> 
-                <Card.Img variant="top" src={card.image} />
+          <div className='col-4 m-3'>
+             <Card style={{ width: '25rem', height:'20rem' }} key={index} className='box'> 
+                <Card.Img className='img-fluid' variant="top" src={card.image} />
                   <Card.Body>
                   <Card.Title>{card.Title}</Card.Title>
                   <Card.Text>{card.Text}</Card.Text>
@@ -71,13 +72,23 @@ const Portfolio = () => {
                   <a href={card.gitLink} className="btn btn-link">GitHub Link</a>
                 </Card.Body>
               </Card>
-          </Col>
+          </div>
         ))}
-      </Row>
+      </div>
+      </>
     );
   }
 
 
-return <div className='grid'>{portfolioInfo.map(renderCard)}</div>;
+return (
+<>
+<h1 className="main-heading text-center">My Projects</h1>
+<div className="underline mx-auto"></div>
+<div className='grid'>
+
+  {portfolioInfo.map(renderCard)}</div>;
+</>
+) 
+
 };
 export default Portfolio;

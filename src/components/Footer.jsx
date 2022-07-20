@@ -1,18 +1,35 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import '../styles/Pages.css'
+
 // import { faTwitterSquare } from '@fortawesome/free-solid-svg-icons';
 
 function Footer() {
   return (
-    <div ClassName="footer">
-      <footer ClassName="footer flex flex-wrap items-center justify-center px-2 py-3 bg-dark-800">
+    <div className="footer">
+      <div className="icon tooltips">
+      <footer className="icons">
         <a href="https://twitter.com/AnitaGChavez1" 
         target='_blank' 
         rel='noreferrer noreopener' 
-        className='icons'>
-        <FontAwesomeIcon icon= {['fab', 'twitter']}/></a>
+        className='icon twitter'>
+        <FontAwesomeIcon icon={faTwitter} />
+        </a>
+        <a href="https://www.linkedin.com/in/anita-chavez-341284231/" 
+        target='_blank' 
+        rel='noreferrer noreopener' 
+        className='icon linkedin'>
+        <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+        <a href="https://github.com/Neeta525" 
+        target='_blank' 
+        rel='noreferrer noreopener' 
+        className='icon github'>
+        <FontAwesomeIcon icon={faGithub} />
+        </a>
       </footer>
+      </div>
     </div>
   )
 }
