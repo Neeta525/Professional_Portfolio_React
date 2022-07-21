@@ -19,7 +19,7 @@
 }
 
 .main-heading, h1 {
-    color: #8E6C88;
+    color: #785c73;
     font-size: 50px;
 }
 
@@ -43,7 +43,7 @@
     margin-top: 5px;
 }
 
-/* .btn {
+.btn {
     background-color: black;
     color: white;
     font-size: 20px;
@@ -51,7 +51,7 @@
     border-radius: 5px;
     margin: 10px 0px;
     cursor: pointer;
-} */
+}
 
 .grid {
     display: flex;
@@ -66,8 +66,27 @@ h5, p, text {
 }
 
 .img {
+    position: relative;
     border-radius: 25px;
     box-shadow: #000000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 100%;
+    float: right;
+    margin-right: 2rem;
+}
+
+.bio {
+    position: absolute;
+    width: 100%;
+    max-width: 800px;
+}
+
+.box {
+    border-radius: 25px;
+    box-shadow: #000000;
+    border:1 px solid rgb(71, 70, 70);
 }
 
 .icons {
@@ -154,3 +173,4 @@ h5, p, text {
   background: #28941c;
   color: #ffffff;
 }
+

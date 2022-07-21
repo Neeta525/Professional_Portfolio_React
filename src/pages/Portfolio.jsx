@@ -61,11 +61,11 @@ const Portfolio = () => {
       <div className="g-4 row">
         {Array.from({ length: 1 }).map((_, index) => (
           <div className='col-4 m-3'>
-             <Card style={{ width: '25rem', height:'20rem' }} key={index} className='box'> 
+             <Card style={{ width: '25rem', height:'25rem' }} key={index} className='box'> 
                 <Card.Img className='img-fluid' variant="top" src={card.image} />
                   <Card.Body>
-                  <Card.Title>{card.Title}</Card.Title>
-                  <Card.Text>{card.Text}</Card.Text>
+                  <Card.Title>{card.title}</Card.Title>
+                  <Card.Text>{card.text}</Card.Text>
                   <a href={card.deployLink} className="btn btn-link">Deployed Link</a>
                   <a href={card.gitLink} className="btn btn-link">GitHub Link</a>
                 </Card.Body>
@@ -81,7 +81,9 @@ const Portfolio = () => {
 return (
 <>
 <h1 className="main-heading text-center">My Projects</h1>
-<div className="underline mx-auto"></div>
+<div className="underline mx-auto">
+<div className="subheading text-center"><h5>Please take a moment to see the deployed links and Github repos for each project. Thanks!</h5></div>
+</div>
 <div className='grid'>
 
   {portfolioInfo.map(renderCard)}</div>;

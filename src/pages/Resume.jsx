@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
 import AnitaChavezResume from '../images/AnitaChavezResume.pdf';
 import { Link } from 'react-router-dom'
-import { saveAs } from "file-saver"
+// import { saveAs } from "file-saver"
 
 
 function Resume() {
@@ -17,13 +17,10 @@ function Resume() {
                 <div className="underline mx-auto">
                   <div className="icons">
                 <Link to={AnitaChavezResume} 
-                  download='AnitaChavezResume.pdf'
+                  // download='AnitaChavezResume.pdf'
                   target='_blank' 
-                  rel='noreferrer noreopener'> 
-                  {/* // className='icons file'> */}
+                  rel='noreferrer noreopener'>
                   <FontAwesomeIcon icon={faFileArrowDown} /> 
-                  {/* <button onClick={saveFile}><FontAwesomeIcon icon={faFileArrowDown} /></button>  */}
-                  {/* <button className='btn'><faFileArrowDown size={20} /></button> */}
                   </Link>
                   </div>
                   </div>
