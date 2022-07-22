@@ -6,11 +6,10 @@ function About() {
   return (
     <div className="container">
       <section className="section">
-
-          <div className="col-md-12 text-center">
-            <h1 className="main-heading">About Anita Chavez</h1>
-            <div className="underline mx-auto">
-              <div className='container-md'>
+        <div className="col-md-12 text-center">
+          <h1 className="main-heading">Anita Chavez</h1>
+          <div className="underline mx-auto">
+            <div className="container-md image-bio">
               <img
                 src={Neeta}
                 className="img"
@@ -28,8 +27,8 @@ function About() {
                 learning full stack web development and drinks a lot of tea
                 while coding. ☕
               </h5>
-              </div>
             </div>
+          </div>
         </div>
       </section>
     </div>

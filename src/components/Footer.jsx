@@ -7,7 +7,7 @@ import '../styles/Pages.css'
 function Footer() {
   return (
     <div className="footer">
-      <div className="icon tooltips">
+      <div className="icon">
       <footer className="icons">
         <a href="https://twitter.com/AnitaGChavez1" 
         target='_blank' 

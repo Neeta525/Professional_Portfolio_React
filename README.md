@@ -1,4 +1,4 @@
-# Ubiquitous Octo Network
+# My Professional Portfolio using React
 
 
 ## Table of Contents
@@ -17,6 +17,7 @@ A Portfolio containing projects, a short bio, social media connections and a way
 
 ## Usage
 screenshot and video coming soon...
+
 
 
 

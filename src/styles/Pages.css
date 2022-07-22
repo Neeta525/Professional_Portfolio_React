@@ -1,157 +1,162 @@
 #root {
-    background-color: #CCDBDC;
+  background-color: #000000;
+  background-image: linear-gradient(180deg, #000000 0%, #04619f 74%);
 }
 
 .mainContainer {
-    min-height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column; 
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .section {
-    min-height: 40px;
+  min-height: 40px;
 }
 
 .card-body {
-    outline: 8px;
-    border-radius: 10px;
+  outline: 8px;
+  border-radius: 10px;
 }
 
-.main-heading, h1 {
-    color: #785c73;
-    font-size: 50px;
+
+.main-heading,
+h1 {
+  color: #785c73;
+  font-size: 50px;
 }
 
 .underline {
-    width: auto;
-    border-top: 2px solid #263D42;
-    /* border-bottom: 2px solid #263D42; */
-    margin-top: 10px;
-    margin-bottom: 10px;
+  width: auto;
+  border-top: 2px solid #04619f;
+  border-bottom: 2px solid #04619f;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .footer {
-    color:#1c6894;
-    height: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  color: #1c6894;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.underline h5 {
-    margin-top: 5px;
-}
 
 .btn {
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    padding: 10px 60px;
-    border-radius: 5px;
-    margin: 10px 0px;
-    cursor: pointer;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
 }
 
 .grid {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10px;
 }
 
-h5, p, text {
-    font-family: 'Courier New', Courier, monospace;
+h5,
+p,
+text {
+  font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell;
+  color: #7dc2f0;
+}
+
+.image-bio {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .img {
-    position: relative;
-    border-radius: 25px;
-    box-shadow: #000000;
-    border-radius: 5px;
-    display: flex;
-    justify-content: flex-end;
-    max-width: 100%;
-    float: right;
-    margin-right: 2rem;
+  position: relative;
+  border-radius: 25px;
+  box-shadow: 5px 5px #062f5d;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 .bio {
-    position: absolute;
-    width: 100%;
-    max-width: 800px;
+  max-width: 500px;
+  text-align: left;
+  margin-left: 10px;
 }
 
 .box {
-    border-radius: 25px;
-    box-shadow: #000000;
-    border:1 px solid rgb(71, 70, 70);
+  border-radius: 25px;
+  box-shadow: 5px 5px #062f5d;
+  border: 1 px solid rgb(71, 70, 70);
 }
 
 .icons {
-    display: inline-flex;
-    justify-content: center;
-    list-style: none;
-    
+  display: inline-flex;
+  justify-content: center;
+  list-style: none;
 }
 .icons .icon {
-    position: relative;
-    background: rgb(71, 70, 70);
-    border-radius: 50%;
-    padding: 4px;
-    margin: 10px;
-    width: 65px;
-    height: 65px;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  position: relative;
+  background: rgb(71, 70, 70);
+  border-radius: 50%;
+  padding: 4px;
+  margin: 10px;
+  width: 65px;
+  height: 65px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .icons .tooltip {
-    position: absolute;
-    top: 0;
-    font-size: 14px;
-    background: #ffffff;
-    color: #000000;
-    padding: 5px 8px;
-    border-radius: 5px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #000000;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-  
+
 .icons .tooltip::before {
-    position: absolute;
-    content: "";
-    height: 8px;
-    width: 8px;
-    background: #ffffff;
-    bottom: -3px;
-    left: 50%;
-    transform: translate(-50%) rotate(45deg);
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-  
+
 .icons .icon:hover .tooltip {
-    top: -45px;
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 .icons .icon:hover span,
 .icons .icon:hover .tooltip {
-    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
 }
 .icons .twitter:hover,
 .icons .twitter:hover .tooltip,
 .icons .twitter:hover .tooltip::before {
-  background: #1DA1F2;
+  background: #1da1f2;
   color: #ffffff;
 }
 
@@ -174,3 +179,8 @@ h5, p, text {
   color: #ffffff;
 }
 
+@media screen and (max-width: 990px) {
+  .bio {
+    text-align: center;
+  }
+}
