@@ -4,12 +4,13 @@ import "../styles/Pages.css";
 
 function About() {
   return (
-    <div>
+    <div className="container">
       <section className="section">
-        <div className="container">
+
           <div className="col-md-12 text-center">
             <h1 className="main-heading">About Anita Chavez</h1>
             <div className="underline mx-auto">
+              <div className='container-md'>
               <img
                 src={Neeta}
                 className="img"
@@ -27,8 +28,8 @@ function About() {
                 learning full stack web development and drinks a lot of tea
                 while coding. ☕
               </h5>
+              </div>
             </div>
-          </div>
         </div>
       </section>
     </div>

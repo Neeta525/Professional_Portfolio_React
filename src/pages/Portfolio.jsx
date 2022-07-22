@@ -14,7 +14,7 @@ const Portfolio = () => {
     { 
       image: movieApp, 
       title: 'The Movie App', 
-      text: 'The best movie app give you a movie description and ratings', 
+      text: 'This movie app gives you a movie description and ratings', 
       deployLink: 'https://walkerjezek.github.io/Project1/',
       gitLink: 'https://github.com/walkerjezek/Project1'
     },
