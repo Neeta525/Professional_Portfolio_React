@@ -16,7 +16,9 @@ A Portfolio containing projects, a short bio, social media connections and a way
 
 
 ## Usage
-screenshot and video coming soon...
+![screenshot](src/images/portfolio1.png)
+![screenshot](src/images/portfolio2.png)
+![screenshot](src/images/portfolio3.png)
 
 
 
