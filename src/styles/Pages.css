@@ -52,16 +52,11 @@ h1 {
   outline-color: #1da1f2;
 }
 
-/* .contactForm {
-  outline-width: 2px;
-  outline-color: #1da1f2;
-} */
 
 .button {
   background-color: black;
   color: #1da1f2;
   font-size: 20px;
-  padding: 10px 60px;
   border-radius: 5px;
   margin: 10px 0px;
   cursor: pointer;
