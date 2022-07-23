@@ -1,10 +1,20 @@
 {
   "files": {
-    "main.js": "/Professional_Portfolio_React/static/js/main.41f366ae.js",
+    "main.css": "/Professional_Portfolio_React/static/css/main.dd49b197.css",
+    "main.js": "/Professional_Portfolio_React/static/js/main.ec273738.js",
+    "static/media/Neeta.jpg": "/Professional_Portfolio_React/static/media/Neeta.7f9411c8f6175f6b9893.jpg",
+    "static/media/movieApp.png": "/Professional_Portfolio_React/static/media/movieApp.03efe72f55c842b0b639.png",
+    "static/media/workday.png": "/Professional_Portfolio_React/static/media/workday.1f75e8dece2004d68a76.png",
+    "static/media/teacup.png": "/Professional_Portfolio_React/static/media/teacup.931ff48965582a5ef80a.png",
+    "static/media/socialNetwork.png": "/Professional_Portfolio_React/static/media/socialNetwork.d8c24e2850b57cfcc005.png",
+    "static/media/keepitNoted.png": "/Professional_Portfolio_React/static/media/keepitNoted.668a498657338260f8b1.png",
+    "static/media/passwordGen.png": "/Professional_Portfolio_React/static/media/passwordGen.f624129ae6a304a61b6f.png",
     "index.html": "/Professional_Portfolio_React/index.html",
-    "main.41f366ae.js.map": "/Professional_Portfolio_React/static/js/main.41f366ae.js.map"
+    "main.dd49b197.css.map": "/Professional_Portfolio_React/static/css/main.dd49b197.css.map",
+    "main.ec273738.js.map": "/Professional_Portfolio_React/static/js/main.ec273738.js.map"
   },
   "entrypoints": [
-    "static/js/main.41f366ae.js"
+    "static/css/main.dd49b197.css",
+    "static/js/main.ec273738.js"
   ]
 }
