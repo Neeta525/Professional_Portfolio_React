@@ -22,7 +22,7 @@
 
 .main-heading,
 h1 {
-  color: #785c73;
+  color: #f8aeeb;
   font-size: 50px;
 }
 
@@ -42,10 +42,24 @@ h1 {
   align-items: center;
 }
 
-
-.btn {
-  background-color: black;
+.errorMessage {
   color: white;
+}
+
+.formRow {
+  padding: 10px;
+  outline-width: 2px;
+  outline-color: #1da1f2;
+}
+
+/* .contactForm {
+  outline-width: 2px;
+  outline-color: #1da1f2;
+} */
+
+.button {
+  background-color: black;
+  color: #1da1f2;
   font-size: 20px;
   padding: 10px 60px;
   border-radius: 5px;
@@ -62,10 +76,16 @@ h1 {
 }
 
 h5,
-p,
 text {
   font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell;
   color: #7dc2f0;
+}
+
+h3,
+p {
+    color:#04619f;
+    font-size: larger;
+    font-weight: 10rem;
 }
 
 .image-bio {
@@ -93,6 +113,10 @@ text {
   border-radius: 25px;
   box-shadow: 5px 5px #062f5d;
   border: 1 px solid rgb(71, 70, 70);
+}
+
+.file {
+    size: 50px;
 }
 
 .icons {

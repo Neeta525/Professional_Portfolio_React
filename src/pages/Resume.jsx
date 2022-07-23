@@ -17,7 +17,7 @@ function Resume() {
                   few skills I have developed.
                 </h5>
                 <div className="icon tooltips">
-                  <div className="icons">
+                  <div className="icons"><p>👉</p>
                     <a
                       href={
                         "https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:7de1f0a7-dd2f-4717-894c-50cfd30b822c"
