@@ -14,7 +14,7 @@ const Portfolio = () => {
     { 
       image: movieApp, 
       title: 'The Movie App', 
-      text: 'This movie app gives you a movie description and ratings', 
+      text: 'This movie app gives you a movie description and ratings.', 
       deployLink: 'https://walkerjezek.github.io/Project1/',
       gitLink: 'https://github.com/walkerjezek/Project1'
     },
@@ -35,7 +35,7 @@ const Portfolio = () => {
     { 
       image: socialNetwork, 
       title: 'Social Media Network', 
-      text: 'This is a backend application where you can add friends and thougts.',
+      text: 'This is a backend application where you can add friends and thoughts.',
       deployLink: 'https://youtu.be/cDiMSgSa1g8',
       gitLink: 'https://github.com/Neeta525/ubiquitous-octo-network'
     },
